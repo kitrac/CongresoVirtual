@@ -6,7 +6,7 @@ import {ModalComponent} from './modal/modal.component';
 @Component({
   selector: 'app-formulario',
   templateUrl: './formulario.component.html',
-  styleUrls: ['./formulario.component.css']
+  styleUrls: ['./formulario.component.css'],
 })
 export class FormularioComponent implements OnInit {
   form: FormGroup;

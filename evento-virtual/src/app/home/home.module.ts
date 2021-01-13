@@ -9,6 +9,7 @@ import {EspecialistasComponent} from "./components/presentacion/especialistas/es
 import {ReactiveFormsModule} from "@angular/forms";
 import {ModalComponent} from './components/formulario/modal/modal.component';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [HomeComponent, PresentacionComponent, FormularioComponent, EmpresasComponent, EspecialistasComponent, ModalComponent],

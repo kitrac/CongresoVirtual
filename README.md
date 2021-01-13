@@ -22,7 +22,7 @@ npm install
 ### Ejecucion 🔧
 
 ```
-npm start
+ng serve
 ```
 
 ## Construido con 🛠️

@@ -1,0 +1,34 @@
+<div class="form-color mt-5 mt-lg-0">
+  <form *ngIf="form" class="p-5" [formGroup]="form">
+    <div>
+      <h5 class="text-center mb-5">¡Inscríbete y reserva tu lugar ahora!</h5>
+    </div>
+    <div class="form-group">
+      <label>Nombre</label>
+      <input type="text" class="form-control" formControlName="nombre">
+    </div>
+    <div class="form-group">
+      <label>Apellido</label>
+      <input type="text" class="form-control" formControlName="apellido">
+    </div>
+    <div class="form-group">
+      <label>Correo electrónico del trabajo</label>
+      <input type="text" class="form-control" formControlName="email">
+    </div>
+    <div class="form-group">
+      <label>Pais</label>
+      <select class="form-control" formControlName="pais">
+        <option [value]="pais" *ngFor="let pais of paises">{{pais}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Número telefonico</label>
+      <input type="text" class="form-control" formControlName="telefono">
+    </div>
+    <div class="form-group">
+      <label>Puesto de trabajo</label>
+      <input type="text" class="form-control" formControlName="puesto">
+    </div>
+    <button class="btn btn-block btn-color mt-4" (click)="open()" [disabled]="!form.valid">Inscribíte</button>
+  </form>
+</div>

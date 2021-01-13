@@ -1,0 +1,25 @@
+p {
+  font-family: proxima-nova-regular;
+}
+
+
+.footer-color {
+  background-color: #F8F9F9;
+}
+
+.margin-footer {
+  margin-top: 100vh;
+}
+
+.heigth-footer {
+  height: 160px;
+}
+
+.redes {
+  background-color: #cccccc;
+  display: inline-block;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+}

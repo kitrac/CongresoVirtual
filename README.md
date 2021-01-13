@@ -19,7 +19,7 @@ Angular
 ```
 npm install
 ```
-### Ejecucion 🔧
+### Ejecucion :arrow_forward:
 
 ```
 ng serve
